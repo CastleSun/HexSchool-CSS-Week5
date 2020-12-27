@@ -1,0 +1,18 @@
+.user {
+    display: flex;
+    align-items: center;
+    .user-photo {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+    }
+    .user-info {
+        margin-left: 16px;
+        .username {
+            font-weight: bold;
+        }
+        .user-content {
+            color: #0000009A;
+        }
+    }
+}

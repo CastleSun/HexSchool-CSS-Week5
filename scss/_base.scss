@@ -1,0 +1,52 @@
+html, body,
+.container-fuild, .dashboard-page {
+    height: 100%;
+}
+p {
+    margin: 0;
+}
+ul {
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+li.dotted {
+    list-style: disc;
+}
+.remove-border {
+    border: none !important;
+}
+.btn-main {
+    display: flex;
+    align-items: center;
+    background-color: $main-color;
+    font-weight: bold;
+}
+.btn-success {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.btn-outline-success {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.col-3 {
+    padding-right: 0;
+}
+
+.router {
+    padding: 32px;
+}
+.icon-dropdown {
+    margin-left: 8px;
+    color: #2A8356;
+}
+.material-icons:hover {
+    cursor: pointer;
+}
+.highlight-text {
+    padding: 2px 4px;
+    color: #2A8356;
+    background-color: $main-color;
+}
